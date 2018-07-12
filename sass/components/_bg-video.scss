@@ -1,0 +1,20 @@
+.bg-video {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	z-index: -1;
+	opacity: .15;
+
+	//cliping the video right, left
+	overflow:hidden;
+
+	&__content{
+		height: 100%;
+		width: 100%;
+		//cover parent element- work with html element, images etc.
+		object-fit: cover;
+
+	}
+}
